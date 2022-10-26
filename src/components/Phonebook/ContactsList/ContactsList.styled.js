@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 export const StyledContactsList = styled.ul`
-  padding: 8px;
-  margin: 16px;
+  padding: 0;
+  margin: 8px;
+  width: 100%
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 `;
 export const StyledContactsListButton = styled.button`
   box-shadow: inset 0px 1px 0px 0px #54a3f7;
@@ -29,7 +33,13 @@ export const StyledContactsListButton = styled.button`
 export const StyledContactsLi = styled.li`
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 8px;
-  margin-right: 8px;
+  justify-content: space-between;
+  width: 100%;
+
+  margin-bottom: 8px;
+`;
+export const StyledInputFilter = styled.input`
+  width: 318px;
+  margin: 8px;
+  outline-color: #124d77;
 `;

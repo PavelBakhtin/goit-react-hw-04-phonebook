@@ -3,10 +3,11 @@ import styled from 'styled-components';
 export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
-  align-items: right;
-  justify-content: start;
-  padding: 8px;
-  margin-right: 8px;
+  margin: 8px;
+  & input {
+    margin-top: 8px;
+    outline-color: #124d77;
+  }
 `;
 export const StyledFormButton = styled.button`
   margin-top: 16px;
